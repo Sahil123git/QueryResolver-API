@@ -1,0 +1,26 @@
+{
+  "name": "queryresolverapi",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000Q\u0000u\u0000e\u0000r\u0000y\u0000R\u0000e\u0000s\u0000o\u0000l\u0000v\u0000e\u0000r\u0000-\u0000A\u0000P\u0000I\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahil123git/QueryResolver-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahil123git/QueryResolver-API/issues"
+  },
+  "homepage": "https://github.com/Sahil123git/QueryResolver-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}
