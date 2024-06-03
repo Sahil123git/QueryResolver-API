@@ -8,6 +8,7 @@ const http = require("http");
 const app = express();
 const server = http.createServer(app);
 const routes = require("./routes");
+const { rootSocket } = require("./socket");
 
 mongoose.set("strictQuery", true);
 mongoose
@@ -15,6 +16,7 @@ mongoose
   .then(() => {
     console.log("MongoDB connected");
     server.listen(PORT, () => {
+      rootSocket(server);
       console.log(`Server Started at localhost:${PORT}`);
     });
   })
